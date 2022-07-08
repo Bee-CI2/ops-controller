@@ -9,6 +9,5 @@ plugins:
   - "plugins.yaml"
 items:
   - "items.yaml"
-  - "team-a-folder.yaml"
 catalog:
   - "plugin-catalog.yaml"
