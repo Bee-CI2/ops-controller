@@ -8,6 +8,7 @@ pipeline {
     stage('Publish Provision Controller Event') {
       when {
         branch 'main'
+        changeset "controller.yaml"
       }
       environment { PROVISION_SECRET = credentials('casc-workshop-controller-provision-secret') }
       steps {
