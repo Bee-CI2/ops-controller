@@ -2,10 +2,10 @@
 removeStrategy:
   rbac: SYNC
   items: NONE
+root: teams
 items:
 - kind: folder
   name: team-a
-  root: teams
   properties:
   - itemRestrictions:
       allowedTypes:
